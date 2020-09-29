@@ -32,6 +32,7 @@ public class Compressium
 		FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Block.class, this::registerBlocks);
 		FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Item.class, this::registerItems);
 
+
 		//noinspection Convert2MethodRef
 		DistExecutor.runForDist(() -> () -> new CompressiumClient(), () -> () -> new CompressiumCommon()).init();
 	}

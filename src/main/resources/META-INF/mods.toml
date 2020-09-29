@@ -27,7 +27,7 @@ displayURL="http://dinnerbeef.com" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="" #optional
 # A text field displayed in the mod UI
-credits="Thanks to LatvianModder for helping me clean up this code" #optional
+credits="Thanks to LatvianModder for helping me clean up this code. Thanks To Gigaherz For the textures" #optional
 # A text field displayed in the mod UI
 authors="DinnerBeef" #optional
 # The description text for the mod (multi line!) (#mandatory)
