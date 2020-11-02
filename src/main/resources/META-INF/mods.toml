@@ -50,6 +50,6 @@ Adding comprseed blocks to the game since 2019
 [[dependencies.compressium]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.3]"
+    versionRange="[1.16.4]"
     ordering="NONE"
     side="BOTH"
