@@ -19,7 +19,7 @@ public class Compressium {
     public static final ItemGroup creativeTab = new ItemGroup("compressium") {
         @Override
         @OnlyIn(Dist.CLIENT)
-        public ItemStack createIcon() {
+        public ItemStack makeIcon() {
             return new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("compressium:cobblestone_1")));
         }
     };
@@ -44,7 +44,7 @@ public class Compressium {
     private void registerItems(RegistryEvent.Register<Item> event) {
         for (CompressiumType type : CompressiumType.VALUES) {
             for (Block block : type.blocks) {
-                event.getRegistry().register(new BlockItem(block, new Item.Properties().group(creativeTab)).setRegistryName(block.getRegistryName()));
+                event.getRegistry().register(new BlockItem(block, new Item.Properties().tab(creativeTab)).setRegistryName(block.getRegistryName()));
             }
         }
     }

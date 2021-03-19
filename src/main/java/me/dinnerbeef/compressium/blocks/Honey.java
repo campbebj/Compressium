@@ -8,11 +8,11 @@ import net.minecraft.block.material.MaterialColor;
 
 public class Honey extends HoneyBlock {
     public Honey() {
-        super(Properties.create(Material.CLAY, MaterialColor.ADOBE)
+        super(Properties.of(Material.CLAY, MaterialColor.COLOR_ORANGE)
                       .speedFactor(0.4F)
                       .jumpFactor(0.5F)
-                      .notSolid()
-                      .sound(SoundType.HONEY));
+                      .noOcclusion()
+                      .sound(SoundType.HONEY_BLOCK));
     }
 }
 

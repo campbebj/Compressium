@@ -8,9 +8,9 @@ import net.minecraftforge.common.ToolType;
 public class Lapis extends Block {
 
     public Lapis() {
-        super(Properties.create(Material.IRON)
+        super(Properties.of(Material.METAL)
                       .sound(SoundType.METAL)
-                      .hardnessAndResistance(3.0F, 3.0F)
+                      .strength(3.0F, 3.0F)
                       .harvestTool(ToolType.PICKAXE));
     }
 }

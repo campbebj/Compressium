@@ -7,9 +7,9 @@ import net.minecraftforge.common.ToolType;
 
 public class Snow extends Block {
     public Snow() {
-        super(Properties.create(Material.SNOW_BLOCK)
+        super(Properties.of(Material.SNOW)
                       .sound(SoundType.SNOW)
-                      .hardnessAndResistance(0.2f)
+                      .strength(0.2f)
                       .harvestTool(ToolType.SHOVEL)
                       .harvestTool(ToolType.SHOVEL));
     }

@@ -17,7 +17,7 @@ public class CompressiumClient extends CompressiumCommon {
     private void clientSetup(FMLClientSetupEvent event) {
         for (CompressiumType type : CompressiumType.VALUES) {
             for (Block block : type.blocks) {
-                RenderTypeLookup.setRenderLayer(block, renderType -> renderType == RenderType.getSolid() || renderType == RenderType.getTranslucent());
+                RenderTypeLookup.setRenderLayer(block, renderType -> renderType == RenderType.solid() || renderType == RenderType.translucent());
             }
         }
     }

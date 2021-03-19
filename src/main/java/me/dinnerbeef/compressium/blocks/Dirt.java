@@ -8,9 +8,9 @@ import net.minecraftforge.common.ToolType;
 
 public class Dirt extends Block {
     public Dirt() {
-        super(Properties.create(Material.EARTH, MaterialColor.DIRT)
-                      .sound(SoundType.GROUND)
-                      .hardnessAndResistance(2.0f)
+        super(Properties.of(Material.DIRT, MaterialColor.DIRT)
+                      .sound(SoundType.GRAVEL)
+                      .strength(2.0f)
                       .harvestTool(ToolType.SHOVEL));
     }
 }

@@ -7,10 +7,10 @@ import net.minecraftforge.common.ToolType;
 
 public class Stone extends Block {
     public Stone() {
-        super(Properties.create(Material.ROCK)
+        super(Properties.of(Material.STONE)
                       .sound(SoundType.STONE)
-                      .hardnessAndResistance(1.5f, 6.0f)
+                      .strength(1.5f, 6.0f)
                       .harvestTool(ToolType.PICKAXE)
-                      .setRequiresTool());
+                      .requiresCorrectToolForDrops());
     }
 }

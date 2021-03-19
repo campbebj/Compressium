@@ -9,9 +9,9 @@ import net.minecraftforge.common.ToolType;
 public class Redstone extends RedstoneBlock {
 
     public Redstone() {
-        super(Properties.create(Material.IRON, MaterialColor.TNT)
+        super(Properties.of(Material.METAL, MaterialColor.FIRE)
                       .sound(SoundType.METAL)
-                      .hardnessAndResistance(5.0F, 6.0F)
+                      .strength(5.0F, 6.0F)
                       .harvestTool(ToolType.PICKAXE));
     }
 }

@@ -7,9 +7,9 @@ import net.minecraftforge.common.ToolType;
 
 public class Coal extends Block {
     public Coal() {
-        super(Properties.create(Material.ROCK, MaterialColor.BLACK)
-                      .hardnessAndResistance(5.0f, 6.0f)
+        super(Properties.of(Material.STONE, MaterialColor.COLOR_BLACK)
+                      .strength(5.0f, 6.0f)
                       .harvestTool(ToolType.PICKAXE)
-                      .setRequiresTool());
+                      .requiresCorrectToolForDrops());
     }
 }

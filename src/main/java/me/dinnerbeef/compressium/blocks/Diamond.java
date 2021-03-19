@@ -7,10 +7,10 @@ import net.minecraftforge.common.ToolType;
 
 public class Diamond extends Block {
     public Diamond() {
-        super(Properties.create(Material.IRON)
+        super(Properties.of(Material.METAL)
                       .sound(SoundType.METAL)
-                      .hardnessAndResistance(5.0f, 6.0f)
+                      .strength(5.0f, 6.0f)
                       .harvestTool(ToolType.PICKAXE)
-                      .setRequiresTool());
+                      .requiresCorrectToolForDrops());
     }
 }

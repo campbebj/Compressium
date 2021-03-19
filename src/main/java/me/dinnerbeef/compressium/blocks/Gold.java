@@ -8,10 +8,10 @@ import net.minecraftforge.common.ToolType;
 
 public class Gold extends Block {
     public Gold() {
-        super(Properties.create(Material.IRON, MaterialColor.GOLD)
+        super(Properties.of(Material.METAL, MaterialColor.GOLD)
                       .sound(SoundType.METAL)
-                      .hardnessAndResistance(3.0f, 6.0f)
+                      .strength(3.0f, 6.0f)
                       .harvestTool(ToolType.PICKAXE)
-                      .setRequiresTool());
+                      .requiresCorrectToolForDrops());
     }
 }

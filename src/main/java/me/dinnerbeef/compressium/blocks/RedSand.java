@@ -9,13 +9,13 @@ import net.minecraftforge.common.ToolType;
 
 public class RedSand extends FallingBlock {
     public RedSand() {
-        super(Properties.create(Material.SAND, MaterialColor.ADOBE)
+        super(Properties.of(Material.SAND, MaterialColor.COLOR_ORANGE)
                       .sound(SoundType.SAND)
-                      .hardnessAndResistance(0.5f)
+                      .strength(0.5f)
                       .harvestTool(ToolType.SHOVEL));
     }
 
-    protected void onStartFalling(FallingBlockEntity fallingEntity) {
-        fallingEntity.setHurtEntities(true);
+    protected void falling(FallingBlockEntity fallingEntity) {
+        fallingEntity.setHurtsEntities(true);
     }
 }

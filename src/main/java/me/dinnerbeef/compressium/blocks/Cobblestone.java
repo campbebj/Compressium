@@ -7,10 +7,10 @@ import net.minecraftforge.common.ToolType;
 
 public class Cobblestone extends Block {
     public Cobblestone() {
-        super(Properties.create(Material.ROCK)
+        super(Properties.of(Material.STONE)
                       .sound(SoundType.STONE)
-                      .hardnessAndResistance(2.0f, 6.0F)
+                      .strength(2.0f, 6.0F)
                       .harvestTool(ToolType.PICKAXE)
-                      .setRequiresTool());
+                      .requiresCorrectToolForDrops());
     }
 }

@@ -7,8 +7,8 @@ import net.minecraftforge.common.ToolType;
 
 public class Clay extends Block {
     public Clay() {
-        super(Properties.create(Material.CLAY).sound(SoundType.GROUND)
-                      .hardnessAndResistance(0.6f)
+        super(Properties.of(Material.CLAY).sound(SoundType.GRAVEL)
+                      .strength(0.6f)
                       .harvestTool(ToolType.SHOVEL));
     }
 }

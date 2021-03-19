@@ -8,10 +8,10 @@ import net.minecraftforge.common.ToolType;
 
 public class Netherite extends Block {
     public Netherite() {
-        super(Properties.create(Material.IRON, MaterialColor.BLACK)
-                      .hardnessAndResistance(50.0F, 1200.0F)
-                      .sound(SoundType.NETHERITE)
+        super(Properties.of(Material.METAL, MaterialColor.COLOR_BLACK)
+                      .strength(50.0F, 1200.0F)
+                      .sound(SoundType.NETHERITE_BLOCK)
                       .harvestTool(ToolType.PICKAXE)
-                      .setRequiresTool());
+                      .requiresCorrectToolForDrops());
     }
 }

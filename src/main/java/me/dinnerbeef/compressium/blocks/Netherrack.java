@@ -12,11 +12,11 @@ import net.minecraftforge.common.ToolType;
 
 public class Netherrack extends NetherrackBlock {
     public Netherrack() {
-        super(Properties.create(Material.ROCK, MaterialColor.NETHERRACK)
+        super(Properties.of(Material.STONE, MaterialColor.NETHER)
                       .sound(SoundType.NETHERRACK)
-                      .hardnessAndResistance(0.4f)
+                      .strength(0.4f)
                       .harvestTool(ToolType.PICKAXE)
-                      .setRequiresTool());
+                      .requiresCorrectToolForDrops());
     }
 
     @Override

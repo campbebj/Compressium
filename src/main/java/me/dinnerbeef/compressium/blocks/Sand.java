@@ -9,14 +9,13 @@ import net.minecraftforge.common.ToolType;
 
 public class Sand extends FallingBlock {
     public Sand() {
-        super(Properties.create(Material.SAND, MaterialColor.SAND)
+        super(Properties.of(Material.SAND, MaterialColor.SAND)
                       .sound(SoundType.SAND)
-                      .hardnessAndResistance(0.5f)
+                      .strength(0.5f)
                       .harvestTool(ToolType.SHOVEL));
     }
 
-    protected void onStartFalling(FallingBlockEntity fallingEntity) {
-
-        fallingEntity.setHurtEntities(true);
+    protected void falling(FallingBlockEntity fallingEntity) {
+        fallingEntity.setHurtsEntities(true);
     }
 }

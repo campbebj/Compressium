@@ -8,10 +8,10 @@ import net.minecraftforge.common.ToolType;
 
 public class Iron extends Block {
     public Iron() {
-        super(Properties.create(Material.IRON, MaterialColor.IRON)
+        super(Properties.of(Material.METAL, MaterialColor.METAL)
                       .sound(SoundType.METAL)
-                      .hardnessAndResistance(5.0f, 6.0f)
+                      .strength(5.0f, 6.0f)
                       .harvestTool(ToolType.PICKAXE)
-                      .setRequiresTool());
+                      .requiresCorrectToolForDrops());
     }
 }
