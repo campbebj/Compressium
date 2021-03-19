@@ -13,6 +13,7 @@ import net.minecraft.item.*;
 import net.minecraft.nbt.INBT;
 import net.minecraft.network.play.server.SChatPacket;
 import net.minecraft.potion.HealthBoostEffect;
+import net.minecraft.tileentity.MobSpawnerTileEntity;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.util.Direction;
 import net.minecraft.util.Hand;
@@ -35,7 +36,11 @@ import java.awt.*;
 
 public class Emerald extends Block {
 	public Emerald() {
-		super(Properties.create(Material.IRON, MaterialColor.EMERALD).sound(SoundType.METAL).hardnessAndResistance(5.0f, 6.0f).harvestTool(ToolType.PICKAXE).func_235861_h_());
+		super(Properties.create(Material.IRON, MaterialColor.EMERALD)
+					  .sound(SoundType.METAL)
+					  .hardnessAndResistance(5.0f, 6.0f)
+					  .harvestTool(ToolType.PICKAXE)
+					  .setRequiresTool());
 	}
 }
 

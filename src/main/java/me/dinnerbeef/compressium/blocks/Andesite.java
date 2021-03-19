@@ -5,10 +5,12 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 
-public class Andesite extends Block
-{
-	public Andesite()
-	{
-		super(Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0f, 6.0F).harvestTool(ToolType.PICKAXE).func_235861_h_());
-	}
+public class Andesite extends Block {
+    public Andesite() {
+        super(Properties.create(Material.ROCK)
+                      .sound(SoundType.STONE)
+                      .hardnessAndResistance(2.0f, 6.0F)
+                      .harvestTool(ToolType.PICKAXE)
+                      .setRequiresTool());
+    }
 }

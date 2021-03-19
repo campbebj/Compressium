@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[34,)"
+loaderVersion="[36,)"
 license="MIT License"
 issueTrackerURL="https://github.com/DinnerBeef/Compressium"
 
@@ -12,17 +12,3 @@ logoFile=""
 credits="Thanks to LatvianModder for helping me clean up this code. Thanks To Gigaherz For the textures"
 authors="DinnerBeef"
 description=''' Adding comprseed blocks to the game since 2019 '''
-
-[[dependencies.compressium]]
-    modId="forge"
-    mandatory=true
-    versionRange="[34,)"
-    ordering="NONE"
-    side="BOTH"
-
-[[dependencies.compressium]]
-    modId="minecraft"
-    mandatory=true
-    versionRange="[1.16.3,]"
-    ordering="NONE"
-    side="BOTH"
