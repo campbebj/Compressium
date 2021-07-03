@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "compressium:netherbricks_3_uncraft"
+    ]
+  },
+  "criteria": {
+    "has_compressed_netherbricks_x3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "compressium:netherbricks_3"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "compressium:netherbricks_3_uncraft"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_compressed_netherbricks_x3",
+      "has_the_recipe"
+    ]
+  ]
+}

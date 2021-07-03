@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "compressium:soulsoil_1"
+    ]
+  },
+  "criteria": {
+    "has_soulsoil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:soul_soil"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "compressium:soulsoil_1"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_soulsoil",
+      "has_the_recipe"
+    ]
+  ]
+}

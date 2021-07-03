@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "compressium:soulsoil_5_uncraft"
+    ]
+  },
+  "criteria": {
+    "has_compressed_soulsoil_x5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "compressium:soulsoil_5"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "compressium:soulsoil_5_uncraft"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_compressed_soulsoil_x5",
+      "has_the_recipe"
+    ]
+  ]
+}
