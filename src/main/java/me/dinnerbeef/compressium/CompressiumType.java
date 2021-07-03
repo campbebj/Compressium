@@ -12,33 +12,6 @@ import java.util.List;
  * @author LatvianModder / DinnerBeef (Just Coped And Pasted Some Of This)
  */
 public enum CompressiumType {
-<<<<<<< Updated upstream
-    COBBLESTONE("cobblestone", Cobblestone::new),
-    STONE("stone", Stone::new),
-    SAND("sand", Sand::new),
-    GRAVEL("gravel", Gravel::new),
-    NETHERRACK("netherrack", Netherrack::new),
-    SNOW("snow", Snow::new),
-    SOULSAND("soulsand", Soulsand::new),
-    IRON("iron", Iron::new),
-    GOLD("gold", Gold::new),
-    DIAMOND("diamond", Diamond::new),
-    EMERALD("emerald", Emerald::new),
-    CLAY("clay", Clay::new),
-    NETHERITE("netherite", Netherite::new),
-    DIRT("dirt", Dirt::new),
-    COAL("coal", Coal::new),
-    REDSAND("redsand", RedSand::new),
-    ENDSTONE("endstone", Endstone::new),
-    OBSIDIAN("obsidian", Obsidian::new),
-    LAPIS("lapis", Lapis::new),
-    QUARTZ("quartz", Quartz::new),
-    HONEY("honey", Honey::new),
-    REDSTONE("redstone", Redstone::new),
-    ANDESITE("andesite", Andesite::new),
-    DIORITE("diorite", Diorite::new),
-    GRANITE("granite", Granite::new);
-=======
     TERRACOTTA("terracotta", new ResourceLocation("minecraft", "terracotta"),
             new ResourceLocation("minecraft", "block/terracotta"), new ResourceLocation("minecraft","block/terracotta")),
     COBBLESTONE("cobblestone", new ResourceLocation("minecraft", "cobblestone"),
@@ -107,7 +80,6 @@ public enum CompressiumType {
             new ResourceLocation("minecraft", "block/crying_obsidian"), new ResourceLocation("minecraft","block/crying_obsidian")),
     KELPBLOCK("kelpblock", new ResourceLocation("minecraft", "dried_kelp_block"),
             new ResourceLocation("minecraft", "block/dried_kelp_side"), new ResourceLocation("minecraft","block/dried_kelp_block"));
->>>>>>> Stashed changes
 
     public static final CompressiumType[] VALUES = values();
 
