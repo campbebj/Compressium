@@ -18,7 +18,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class Compressium {
     public static final ItemGroup creativeTab = new ItemGroup("compressium") {
         @Override
-        @OnlyIn(Dist.CLIENT)
+       // @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
             return new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("compressium:cobblestone_1")));
         }

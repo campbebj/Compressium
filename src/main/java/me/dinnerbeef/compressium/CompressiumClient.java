@@ -11,7 +11,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
  */
 public class CompressiumClient extends CompressiumCommon {
     public void init() {
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientSetup);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener((this::clientSetup));
     }
 
     private void clientSetup(FMLClientSetupEvent event) {
