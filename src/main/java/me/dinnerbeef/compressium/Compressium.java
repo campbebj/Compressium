@@ -14,13 +14,19 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
 
-@Mod("compressium")
+import java.util.HashMap;
+import java.util.Map;
+
+@Mod(Compressium.MODID)
 public class Compressium {
-    public static final ItemGroup creativeTab = new ItemGroup("compressium") {
+    public static final String MODID = "compressium";
+    public static final Map<String, Block[]> BLOCKS = new HashMap<>();
+
+    public static final ItemGroup creativeTab = new ItemGroup(Compressium.MODID) {
         @Override
        // @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
-            return new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("compressium:cobblestone_1")));
+            return new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation(Compressium.MODID + "cobblestone_1")));
         }
     };
 
@@ -33,9 +39,12 @@ public class Compressium {
 
     private void registerBlocks(RegistryEvent.Register<Block> event) {
         for (CompressiumType type : CompressiumType.VALUES) {
+            Block[] compressedList = new Block[9];
+            BLOCKS.put(type.name, compressedList);
             for (int i = 0; i < 9; i++) {
-                Block block = type.factory.get();
+                Block block = type.getBlock();
                 event.getRegistry().register(block.setRegistryName(type.name + "_" + (i + 1)));
+                compressedList[i] = block;
                 type.blocks.add(block);
             }
         }

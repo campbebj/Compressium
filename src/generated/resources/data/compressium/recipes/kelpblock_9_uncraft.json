@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "compressium:kelpblock_9"
+    }
+  ],
+  "result": {
+    "item": "compressium:kelpblock_8",
+    "count": 9
+  }
+}
