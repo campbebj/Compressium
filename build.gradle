@@ -21,6 +21,21 @@ archivesBaseName = "Compressium-${minecraft_version}"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(16)
 
+sourceSets {
+    main {
+        resources {
+            srcDirs "src/generated/resources"
+            //But exclude the cache of the generated data from what gets built
+            exclude '.cache'
+        }
+    }
+}
+
+task copyConfig(type: Copy) {
+    from 'src/main/config'
+    into 'run/config'
+}
+
 minecraft {
     mappings channel: 'official', version: "${minecraft_version}"
     runs {
@@ -42,7 +57,13 @@ minecraft {
         }
         data {
             workingDirectory project.file('run')
-            args '--mod', 'compressium', '--all', '--output', file('src/generated/resources/')
+
+            copy {
+                from 'src/main/config'
+                into 'run/config'
+            }
+
+            args '--mod', 'compressium', '--all', '--output', file('src/generated/resources/'),"--existing","\"" + sourceSets.main.resources.srcDirs[0] + "\""
 
             mods {
                 compressium {
