@@ -34,7 +34,7 @@ public class Compressium {
     private void registerBlocks(RegistryEvent.Register<Block> event) {
         for (CompressiumType type : CompressiumType.VALUES) {
             for (int i = 0; i < 9; i++) {
-                Block block = type.factory.get();
+                Block block = type.getBlock();
                 event.getRegistry().register(block.setRegistryName(type.name + "_" + (i + 1)));
                 type.blocks.add(block);
             }
