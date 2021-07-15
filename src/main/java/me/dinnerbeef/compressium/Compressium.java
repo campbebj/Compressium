@@ -1,11 +1,20 @@
 package me.dinnerbeef.compressium;
 
+<<<<<<< HEAD
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.ItemStack;
+=======
+import net.minecraft.block.Block;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.ResourceLocation;
+>>>>>>> Fixing merge issues
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -21,7 +30,11 @@ public class Compressium {
     public static final String MODID = "compressium";
     public static final Map<String, Block[]> BLOCKS = new HashMap<>();
 
+<<<<<<< HEAD
     public static final CreativeModeTab creativeTab = new CreativeModeTab(Compressium.MODID) {
+=======
+    public static final ItemGroup creativeTab = new ItemGroup(Compressium.MODID) {
+>>>>>>> Fixing merge issues
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("compressium:cobblestone_1")));

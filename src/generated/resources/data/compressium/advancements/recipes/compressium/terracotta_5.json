@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "compressium:terracotta_5"
+    ]
+  },
+  "criteria": {
+    "has_compressed_terracotta_x4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "compressium:terracotta_4"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "compressium:terracotta_5"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_compressed_terracotta_x4",
+      "has_the_recipe"
+    ]
+  ]
+}

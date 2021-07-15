@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "compressium:magmablock_1"
+    ]
+  },
+  "criteria": {
+    "has_magmablock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:magma_block"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "compressium:magmablock_1"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_magmablock",
+      "has_the_recipe"
+    ]
+  ]
+}

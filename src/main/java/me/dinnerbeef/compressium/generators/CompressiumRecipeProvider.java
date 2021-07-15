@@ -2,12 +2,17 @@ package me.dinnerbeef.compressium.generators;
 
 import me.dinnerbeef.compressium.Compressium;
 import me.dinnerbeef.compressium.CompressiumType;
+<<<<<<< HEAD
 import net.minecraft.data.*;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.data.recipes.ShapelessRecipeBuilder;
 import net.minecraft.world.level.block.Block;
+=======
+import net.minecraft.block.Block;
+import net.minecraft.data.*;
+>>>>>>> Fixing merge issues
 
 import java.util.function.Consumer;
 
@@ -17,7 +22,11 @@ public class CompressiumRecipeProvider extends RecipeProvider {
     }
 
     @Override
+<<<<<<< HEAD
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> consumer) {
+=======
+    protected void buildShapelessRecipes(Consumer<IFinishedRecipe> consumer) {
+>>>>>>> Fixing merge issues
         for (CompressiumType type : CompressiumType.VALUES) {
             Block[] blockList = Compressium.BLOCKS.get(type.name);
             Block baseBlock = type.getBaseBlock();

@@ -2,10 +2,17 @@ package me.dinnerbeef.compressium.generators;
 
 import me.dinnerbeef.compressium.Compressium;
 import me.dinnerbeef.compressium.CompressiumType;
+<<<<<<< HEAD
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
+=======
+import net.minecraft.block.Block;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.data.DataGenerator;
+import net.minecraft.util.ResourceLocation;
+>>>>>>> Fixing merge issues
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.loaders.MultiLayerModelBuilder;
 import net.minecraftforge.common.data.ExistingFileHelper;

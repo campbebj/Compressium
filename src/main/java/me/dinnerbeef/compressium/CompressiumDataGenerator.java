@@ -4,7 +4,11 @@ import me.dinnerbeef.compressium.generators.*;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+<<<<<<< HEAD
 import net.minecraftforge.forge.event.lifecycle.GatherDataEvent;
+=======
+import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
+>>>>>>> Fixing merge issues
 
 @Mod.EventBusSubscriber(modid = Compressium.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class CompressiumDataGenerator {

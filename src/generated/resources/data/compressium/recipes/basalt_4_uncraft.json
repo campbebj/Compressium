@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "compressium:basalt_4"
+    }
+  ],
+  "result": {
+    "item": "compressium:basalt_3",
+    "count": 9
+  }
+}
