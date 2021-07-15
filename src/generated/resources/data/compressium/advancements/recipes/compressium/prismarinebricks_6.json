@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "compressium:prismarinebricks_6"
+    ]
+  },
+  "criteria": {
+    "has_compressed_prismarinebricks_x5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "compressium:prismarinebricks_5"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "compressium:prismarinebricks_6"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_compressed_prismarinebricks_x5",
+      "has_the_recipe"
+    ]
+  ]
+}

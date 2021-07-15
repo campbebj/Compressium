@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "compressium:basalt_4_uncraft"
+    ]
+  },
+  "criteria": {
+    "has_compressed_basalt_x4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "compressium:basalt_4"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "compressium:basalt_4_uncraft"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_compressed_basalt_x4",
+      "has_the_recipe"
+    ]
+  ]
+}

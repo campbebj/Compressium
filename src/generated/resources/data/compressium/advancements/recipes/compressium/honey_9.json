@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "compressium:honey_9"
+    ]
+  },
+  "criteria": {
+    "has_compressed_honey_x8": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "compressium:honey_8"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "compressium:honey_9"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_compressed_honey_x8",
+      "has_the_recipe"
+    ]
+  ]
+}

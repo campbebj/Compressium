@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "compressium:netherbricks_2"
+    }
+  ],
+  "result": {
+    "item": "compressium:netherbricks_1",
+    "count": 9
+  }
+}

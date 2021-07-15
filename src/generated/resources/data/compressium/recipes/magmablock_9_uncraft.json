@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "compressium:magmablock_9"
+    }
+  ],
+  "result": {
+    "item": "compressium:magmablock_8",
+    "count": 9
+  }
+}

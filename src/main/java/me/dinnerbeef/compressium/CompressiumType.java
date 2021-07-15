@@ -181,6 +181,21 @@ public enum CompressiumType {
             new ResourceLocation("minecraft", "dried_kelp_block"),
             new ResourceLocation("minecraft", "block/dried_kelp_side"),
             new ResourceLocation("minecraft","block/dried_kelp_block"),
+            Block::new),
+    PRISMARINE("prismarine",
+            new ResourceLocation("minecraft", "prismarine"),
+            new ResourceLocation("minecraft", "block/prismarine"),
+            new ResourceLocation("minecraft","block/prismarine"),
+            Block::new),
+    PRISMARINEBRICKS("prismarinebricks",
+            new ResourceLocation("minecraft", "prismarine_bricks"),
+            new ResourceLocation("minecraft", "block/prismarine_bricks"),
+            new ResourceLocation("minecraft","block/prismarine_bricks"),
+            Block::new),
+    DARKPRISMARINE("darkprismarine",
+            new ResourceLocation("minecraft", "dark_prismarine"),
+            new ResourceLocation("minecraft", "block/dark_prismarine"),
+            new ResourceLocation("minecraft","block/dark_prismarine"),
             Block::new);
 
     public static final CompressiumType[] VALUES = values();

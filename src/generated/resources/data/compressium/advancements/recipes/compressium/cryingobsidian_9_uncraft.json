@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "compressium:cryingobsidian_9_uncraft"
+    ]
+  },
+  "criteria": {
+    "has_compressed_cryingobsidian_x9": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "compressium:cryingobsidian_9"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "compressium:cryingobsidian_9_uncraft"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_compressed_cryingobsidian_x9",
+      "has_the_recipe"
+    ]
+  ]
+}

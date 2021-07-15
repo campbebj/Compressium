@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "compressium:darkprismarine_5_uncraft"
+    ]
+  },
+  "criteria": {
+    "has_compressed_darkprismarine_x5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "compressium:darkprismarine_5"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "compressium:darkprismarine_5_uncraft"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_compressed_darkprismarine_x5",
+      "has_the_recipe"
+    ]
+  ]
+}

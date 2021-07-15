@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "compressium:cryingobsidian_5"
+    }
+  ],
+  "result": {
+    "item": "compressium:cryingobsidian_4",
+    "count": 9
+  }
+}
