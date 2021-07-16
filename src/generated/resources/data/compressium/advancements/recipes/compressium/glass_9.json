@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "compressium:glass_9"
+    ]
+  },
+  "criteria": {
+    "has_compressed_glass_x8": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "compressium:glass_8"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "compressium:glass_9"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_compressed_glass_x8",
+      "has_the_recipe"
+    ]
+  ]
+}
