@@ -1,7 +1,7 @@
 package me.dinnerbeef.compressium;
 
 import me.dinnerbeef.compressium.blocks.*;
-import net.minecraft.block.Block;
+import net.minecraft.world.level.block.Block;
 
 import java.util.ArrayList;
 import java.util.List;
