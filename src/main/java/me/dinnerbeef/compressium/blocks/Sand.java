@@ -1,10 +1,10 @@
 package me.dinnerbeef.compressium.blocks;
 
-import net.minecraft.block.FallingBlock;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.material.MaterialColor;
-import net.minecraft.entity.item.FallingBlockEntity;
+import net.minecraft.world.entity.item.FallingBlockEntity;
+import net.minecraft.world.level.block.FallingBlock;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.common.ToolType;
 
 public class Sand extends FallingBlock {
@@ -16,6 +16,6 @@ public class Sand extends FallingBlock {
     }
 
     protected void falling(FallingBlockEntity fallingEntity) {
-        fallingEntity.setHurtsEntities(true);
+        fallingEntity.setHurtsEntities(1,1);
     }
 }

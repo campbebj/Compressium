@@ -1,13 +1,12 @@
 package me.dinnerbeef.compressium;
 
-import net.minecraft.block.Block;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.ResourceLocation;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.api.distmarker.OnlyIn;
+
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
@@ -16,7 +15,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 @Mod("compressium")
 public class Compressium {
-    public static final ItemGroup creativeTab = new ItemGroup("compressium") {
+    public static final CreativeModeTab creativeTab = new CreativeModeTab("compressium") {
         @Override
        // @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
