@@ -31,7 +31,6 @@ public enum CompressiumType {
     OBSIDIAN("obsidian", Obsidian::new),
     LAPIS("lapis", Lapis::new),
     QUARTZ("quartz", Quartz::new),
-    HONEY("honey", Honey::new),
     REDSTONE("redstone", Redstone::new),
     ANDESITE("andesite", Andesite::new),
     DIORITE("diorite", Diorite::new),

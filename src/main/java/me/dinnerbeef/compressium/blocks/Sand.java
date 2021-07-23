@@ -16,6 +16,6 @@ public class Sand extends FallingBlock {
     }
 
     protected void falling(FallingBlockEntity fallingEntity) {
-        fallingEntity.setHurtsEntities(1,1);
+        fallingEntity.setHurtsEntities(1f,20);
     }
 }
