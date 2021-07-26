@@ -1,6 +1,5 @@
 package me.dinnerbeef.compressium.blocks;
 
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.material.Material;
