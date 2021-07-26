@@ -1,6 +1,5 @@
 package me.dinnerbeef.compressium;
 
-
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;

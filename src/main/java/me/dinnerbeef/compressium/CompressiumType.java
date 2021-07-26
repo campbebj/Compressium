@@ -7,9 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Supplier;
 
-/**
- * @author LatvianModder / DinnerBeef (Just Coped And Pasted Some Of This)
- */
 public enum CompressiumType {
     COBBLESTONE("cobblestone", Cobblestone::new),
     STONE("stone", Stone::new),
