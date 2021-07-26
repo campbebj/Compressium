@@ -6,11 +6,7 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Block;
 
 public class CompressiumClient extends CompressiumCommon {
-    public void init() {
-        FMLJavaModLoadingContext.get().getModEventBus().addListener((this::clientSetup));
-    }
-
-    private void clientSetup(FMLClientSetupEvent event) {
+    public static void setupItemVar() {
         for (CompressiumType type : CompressiumType.VALUES) {
             for (Block block : type.blocks) {
                 ItemBlockRenderTypes.setRenderLayer(block,

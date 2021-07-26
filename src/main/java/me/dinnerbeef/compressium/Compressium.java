@@ -7,8 +7,9 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.fml.DistExecutor;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
 
@@ -22,10 +23,15 @@ public class Compressium {
     };
 
     public Compressium() {
-        FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Block.class, this::registerBlocks);
-        FMLJavaModLoadingContext.get().getModEventBus().addGenericListener(Item.class, this::registerItems);
+        IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        DistExecutor.runForDist(() -> () -> new CompressiumClient(), () -> () -> new CompressiumCommon()).init();
+        eventBus.addGenericListener(Block.class, this::registerBlocks);
+        eventBus.addGenericListener(Item.class, this::registerItems);
+        eventBus.addListener(this::clientSetup);
+    }
+
+    private void clientSetup(FMLClientSetupEvent event) {
+        CompressiumClient.setupItemVar();
     }
 
     private void registerBlocks(RegistryEvent.Register<Block> event) {
