@@ -21,20 +21,7 @@ archivesBaseName = "Compressium-${minecraft_version}"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(16)
 
-sourceSets {
-    main {
-        resources {
-            srcDirs "src/generated/resources"
-            //But exclude the cache of the generated data from what gets built
-            exclude '.cache'
-        }
-    }
-}
-
-task copyConfig(type: Copy) {
-    from 'src/main/config'
-    into 'run/config'
-}
+processResources.duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 
 sourceSets {
     main {
@@ -50,6 +37,17 @@ task copyConfig(type: Copy) {
     from 'src/main/config'
     into 'run/config'
 }
+
+sourceSets {
+    main {
+        resources {
+            srcDirs "src/generated/resources"
+            //But exclude the cache of the generated data from what gets built
+            exclude '.cache'
+        }
+    }
+}
+
 minecraft {
     mappings channel: 'official', version: "${minecraft_version}"
     runs {
@@ -77,13 +75,6 @@ minecraft {
                 from 'src/main/config'
                 into 'run/config'
             }
-<<<<<<< HEAD
-=======
-
-            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
-
-            property 'forge.logging.console.level', 'debug'
->>>>>>> Fixing merge issues
 
             args '--mod', 'compressium', '--all', '--output', file('src/generated/resources/'),"--existing","\"" + sourceSets.main.resources.srcDirs[0] + "\""
 

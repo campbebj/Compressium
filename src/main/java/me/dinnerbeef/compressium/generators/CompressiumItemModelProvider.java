@@ -3,11 +3,7 @@ package me.dinnerbeef.compressium.generators;
 import me.dinnerbeef.compressium.Compressium;
 import me.dinnerbeef.compressium.CompressiumType;
 import net.minecraft.data.DataGenerator;
-<<<<<<< HEAD
 import net.minecraft.resources.ResourceLocation;
-=======
-import net.minecraft.util.ResourceLocation;
->>>>>>> Fixing merge issues
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
