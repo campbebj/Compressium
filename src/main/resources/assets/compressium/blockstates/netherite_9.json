@@ -1,6 +1,15 @@
+<<<<<<< Updated upstream
 {
   "variants": {
     "": { "model": "compressium:block/netherite_9" }
 
   }
 }
+=======
+{
+  "variants": {
+    "": { "model": "compressium:block/netherite_9" }
+
+  }
+}
+>>>>>>> Stashed changes

@@ -1,6 +1,15 @@
+<<<<<<< Updated upstream
 {
   "variants": {
     "": { "model": "compressium:block/stone_9" }
 
   }
 }
+=======
+{
+  "variants": {
+    "": { "model": "compressium:block/stone_9" }
+
+  }
+}
+>>>>>>> Stashed changes

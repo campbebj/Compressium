@@ -1,6 +1,15 @@
+<<<<<<< Updated upstream
 {
   "variants": {
     "": { "model": "compressium:block/sand_2" }
 
   }
 }
+=======
+{
+  "variants": {
+    "": { "model": "compressium:block/sand_2" }
+
+  }
+}
+>>>>>>> Stashed changes

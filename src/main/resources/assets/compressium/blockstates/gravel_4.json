@@ -1,6 +1,15 @@
+<<<<<<< Updated upstream
 {
   "variants": {
     "": { "model": "compressium:block/gravel_4" }
 
   }
 }
+=======
+{
+  "variants": {
+    "": { "model": "compressium:block/gravel_4" }
+
+  }
+}
+>>>>>>> Stashed changes

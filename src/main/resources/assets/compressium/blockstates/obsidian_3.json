@@ -1,6 +1,15 @@
+<<<<<<< Updated upstream
 {
   "variants": {
     "": { "model": "compressium:block/obsidian_3" }
 
   }
 }
+=======
+{
+  "variants": {
+    "": { "model": "compressium:block/obsidian_3" }
+
+  }
+}
+>>>>>>> Stashed changes

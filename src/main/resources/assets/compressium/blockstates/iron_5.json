@@ -1,6 +1,15 @@
+<<<<<<< Updated upstream
 {
   "variants": {
     "": { "model": "compressium:block/iron_5" }
 
   }
 }
+=======
+{
+  "variants": {
+    "": { "model": "compressium:block/iron_5" }
+
+  }
+}
+>>>>>>> Stashed changes

@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
@@ -14,3 +15,21 @@
     "item": "compressium:diorite_1"
   }
 }
+=======
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:diorite"
+    }
+  },
+  "result": {
+    "item": "compressium:diorite_1"
+  }
+}
+>>>>>>> Stashed changes

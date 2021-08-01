@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {  "parent": "block/block",
   "loader": "forge:multi-layer",
   "layers": {
@@ -12,4 +13,20 @@
     }
   },
   "textures": { "particle": "block/red_sand" }
+=======
+{  "parent": "block/block",
+  "loader": "forge:multi-layer",
+  "layers": {
+    "solid": {
+      "parent": "block/cube_all",
+      "textures": { "all": "block/red_sand" },
+      "transform": { "origin":"center", "scale": 1 }
+    },
+    "translucent": {
+      "parent": "block/cube_all",
+      "textures": { "all": "compressium:block/layer_1" }
+    }
+  },
+  "textures": { "particle": "block/red_sand" }
+>>>>>>> Stashed changes
 }

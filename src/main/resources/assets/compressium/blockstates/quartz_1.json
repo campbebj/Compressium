@@ -1,6 +1,15 @@
+<<<<<<< Updated upstream
 {
   "variants": {
     "": { "model": "compressium:block/quartz_1" }
 
   }
 }
+=======
+{
+  "variants": {
+    "": { "model": "compressium:block/quartz_1" }
+
+  }
+}
+>>>>>>> Stashed changes

@@ -1,6 +1,15 @@
+<<<<<<< Updated upstream
 {
   "variants": {
     "": { "model": "compressium:block/lapis_5" }
 
   }
 }
+=======
+{
+  "variants": {
+    "": { "model": "compressium:block/lapis_5" }
+
+  }
+}
+>>>>>>> Stashed changes

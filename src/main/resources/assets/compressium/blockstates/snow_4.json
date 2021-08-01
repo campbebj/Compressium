@@ -1,6 +1,15 @@
+<<<<<<< Updated upstream
 {
   "variants": {
     "": { "model": "compressium:block/snow_4" }
 
   }
 }
+=======
+{
+  "variants": {
+    "": { "model": "compressium:block/snow_4" }
+
+  }
+}
+>>>>>>> Stashed changes

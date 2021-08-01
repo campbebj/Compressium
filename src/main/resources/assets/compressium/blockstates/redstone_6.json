@@ -1,6 +1,15 @@
+<<<<<<< Updated upstream
 {
   "variants": {
     "": { "model": "compressium:block/redstone_6" }
 
   }
 }
+=======
+{
+  "variants": {
+    "": { "model": "compressium:block/redstone_6" }
+
+  }
+}
+>>>>>>> Stashed changes

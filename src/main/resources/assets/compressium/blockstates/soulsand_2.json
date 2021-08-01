@@ -1,6 +1,15 @@
+<<<<<<< Updated upstream
 {
   "variants": {
     "": { "model": "compressium:block/soulsand_2" }
 
   }
 }
+=======
+{
+  "variants": {
+    "": { "model": "compressium:block/soulsand_2" }
+
+  }
+}
+>>>>>>> Stashed changes

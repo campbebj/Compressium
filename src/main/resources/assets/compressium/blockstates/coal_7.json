@@ -1,6 +1,15 @@
+<<<<<<< Updated upstream
 {
   "variants": {
     "": { "model": "compressium:block/coal_7" }
 
   }
 }
+=======
+{
+  "variants": {
+    "": { "model": "compressium:block/coal_7" }
+
+  }
+}
+>>>>>>> Stashed changes

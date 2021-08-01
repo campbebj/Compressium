@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {  "parent": "block/block",
   "loader": "forge:multi-layer",
   "layers": {
@@ -12,4 +13,20 @@
     }
   },
   "textures": { "particle": "block/gold_block" }
+=======
+{  "parent": "block/block",
+  "loader": "forge:multi-layer",
+  "layers": {
+    "solid": {
+      "parent": "block/cube_all",
+      "textures": { "all": "block/gold_block" },
+      "transform": { "origin":"center", "scale": 1 }
+    },
+    "translucent": {
+      "parent": "block/cube_all",
+      "textures": { "all": "compressium:block/layer_3" }
+    }
+  },
+  "textures": { "particle": "block/gold_block" }
+>>>>>>> Stashed changes
 }

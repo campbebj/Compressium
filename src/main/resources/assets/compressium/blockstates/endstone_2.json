@@ -1,6 +1,15 @@
+<<<<<<< Updated upstream
 {
   "variants": {
     "": { "model": "compressium:block/endstone_2" }
 
   }
 }
+=======
+{
+  "variants": {
+    "": { "model": "compressium:block/endstone_2" }
+
+  }
+}
+>>>>>>> Stashed changes
