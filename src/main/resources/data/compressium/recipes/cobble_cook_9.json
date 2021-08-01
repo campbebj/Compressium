@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 {
   "type": "minecraft:smelting",
   "ingredient": {
@@ -7,14 +6,5 @@
   "result": "compressium:stone_9",
   "experience": 8,
   "cookingtime": 1100
-=======
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "compressium:cobblestone_9"
-  },
-  "result": "compressium:stone_9",
-  "experience": 8,
-  "cookingtime": 1100
->>>>>>> Stashed changes
+
 }

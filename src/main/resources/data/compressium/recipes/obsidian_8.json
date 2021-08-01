@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
@@ -15,21 +14,4 @@
     "item": "compressium:obsidian_8"
   }
 }
-=======
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "xxx",
-    "xxx",
-    "xxx"
-  ],
-  "key": {
-    "x": {
-      "item": "compressium:obsidian_7"
-    }
-  },
-  "result": {
-    "item": "compressium:obsidian_8"
-  }
-}
->>>>>>> Stashed changes
+

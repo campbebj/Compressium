@@ -1,15 +1,7 @@
-<<<<<<< Updated upstream
 {
   "variants": {
     "": { "model": "compressium:block/diamond_5" }
 
   }
 }
-=======
-{
-  "variants": {
-    "": { "model": "compressium:block/diamond_5" }
 
-  }
-}
->>>>>>> Stashed changes

@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 {
   "type": "minecraft:block",
   "pools": [
@@ -17,24 +16,5 @@
       ]
     }
   ]
-=======
-{
-  "type": "minecraft:block",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "compressium:stone_1"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
-    }
-  ]
->>>>>>> Stashed changes
+
 }

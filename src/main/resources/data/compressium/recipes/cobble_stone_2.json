@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 
 {
   "type": "minecraft:crafting_shaped",
@@ -15,22 +14,5 @@
   "result": {
     "item": "compressium:cobblestone_2"
   }
-=======
 
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "xxx",
-    "xxx",
-    "xxx"
-  ],
-  "key": {
-    "x": {
-      "item": "compressium:cobblestone_1"
-    }
-  },
-  "result": {
-    "item": "compressium:cobblestone_2"
-  }
->>>>>>> Stashed changes
 }

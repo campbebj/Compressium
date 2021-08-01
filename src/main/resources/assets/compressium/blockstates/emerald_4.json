@@ -1,15 +1,6 @@
-<<<<<<< Updated upstream
 {
   "variants": {
     "": { "model": "compressium:block/emerald_4" }
 
   }
 }
-=======
-{
-  "variants": {
-    "": { "model": "compressium:block/emerald_4" }
-
-  }
-}
->>>>>>> Stashed changes

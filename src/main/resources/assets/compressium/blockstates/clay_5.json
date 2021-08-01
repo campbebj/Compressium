@@ -1,15 +1,7 @@
-<<<<<<< Updated upstream
 {
   "variants": {
     "": { "model": "compressium:block/clay_5" }
 
   }
 }
-=======
-{
-  "variants": {
-    "": { "model": "compressium:block/clay_5" }
 
-  }
-}
->>>>>>> Stashed changes

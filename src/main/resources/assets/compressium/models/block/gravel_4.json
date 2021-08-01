@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 {  "parent": "block/block",
   "loader": "forge:multi-layer",
   "layers": {
@@ -13,20 +12,5 @@
     }
   },
   "textures": { "particle": "block/gravel" }
-=======
-{  "parent": "block/block",
-  "loader": "forge:multi-layer",
-  "layers": {
-    "solid": {
-      "parent": "block/cube_all",
-      "textures": { "all": "block/gravel" },
-      "transform": { "origin":"center", "scale": 1 }
-    },
-    "translucent": {
-      "parent": "block/cube_all",
-      "textures": { "all": "compressium:block/layer_4" }
-    }
-  },
-  "textures": { "particle": "block/gravel" }
->>>>>>> Stashed changes
+
 }

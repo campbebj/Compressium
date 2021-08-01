@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
@@ -15,21 +14,4 @@
     "item": "compressium:granite_1"
   }
 }
-=======
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "xxx",
-    "xxx",
-    "xxx"
-  ],
-  "key": {
-    "x": {
-      "item": "minecraft:granite"
-    }
-  },
-  "result": {
-    "item": "compressium:granite_1"
-  }
-}
->>>>>>> Stashed changes
+

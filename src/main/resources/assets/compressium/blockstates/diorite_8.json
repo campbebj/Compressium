@@ -1,15 +1,7 @@
-<<<<<<< Updated upstream
 {
   "variants": {
     "": { "model": "compressium:block/diorite_8" }
 
   }
 }
-=======
-{
-  "variants": {
-    "": { "model": "compressium:block/diorite_8" }
 
-  }
-}
->>>>>>> Stashed changes

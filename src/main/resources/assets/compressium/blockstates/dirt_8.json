@@ -1,15 +1,7 @@
-<<<<<<< Updated upstream
 {
   "variants": {
     "": { "model": "compressium:block/dirt_8" }
 
   }
 }
-=======
-{
-  "variants": {
-    "": { "model": "compressium:block/dirt_8" }
 
-  }
-}
->>>>>>> Stashed changes

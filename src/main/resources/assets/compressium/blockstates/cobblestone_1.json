@@ -1,13 +1,6 @@
-<<<<<<< Updated upstream
 {
   "variants": {
     "": { "model": "compressium:block/cobblestone_1" }
   }
 }
-=======
-{
-  "variants": {
-    "": { "model": "compressium:block/cobblestone_1" }
-  }
-}
->>>>>>> Stashed changes
+

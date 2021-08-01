@@ -1,15 +1,7 @@
-<<<<<<< Updated upstream
 {
   "variants": {
     "": { "model": "compressium:block/netherrack_6" }
 
   }
 }
-=======
-{
-  "variants": {
-    "": { "model": "compressium:block/netherrack_6" }
 
-  }
-}
->>>>>>> Stashed changes

@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
 {
   "parent": "compressium:block/netherrite_6"
-=======
-{
-  "parent": "compressium:block/netherrite_6"
->>>>>>> Stashed changes
+
 }
